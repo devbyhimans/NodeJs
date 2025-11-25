@@ -3,3 +3,9 @@
 {"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":"/about/myname=Himanshu&userid=1","path":"/about/myname=Himanshu&userid=1","href":"/about/myname=Himanshu&userid=1"}
 {"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":"?myname=Himanshu&userid=1","query":{"myname":"Himanshu","userid":"1"},"pathname":"/about","path":"/about?myname=Himanshu&userid=1","href":"/about?myname=Himanshu&userid=1"}
 {"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":"?myname=Akshay&userid=1","query":{"myname":"Akshay","userid":"1"},"pathname":"/about","path":"/about?myname=Akshay&userid=1","href":"/about?myname=Akshay&userid=1"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":"?myname=Akshay&userid=1","query":{"myname":"Akshay","userid":"1"},"pathname":"/about","path":"/about?myname=Akshay&userid=1","href":"/about?myname=Akshay&userid=1"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":"/search","path":"/search","href":"/search"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":"/search","path":"/search","href":"/search"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":"/signup","path":"/signup","href":"/signup"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":"/signup","path":"/signup","href":"/signup"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":"/signup","path":"/signup","href":"/signup"}

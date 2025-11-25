@@ -4,7 +4,7 @@ const fs = require("fs");
 const url = require("url");
 
 // Ek HTTP server create kar rahe hain jo har request ka response handle karega
-const myserver = http.createServer((req, res) => {
+function myHandler(req, res){
  if(req.url=="/favicon.ico") return res.end();
 
  const myurl = url.parse(req.url, true); // true → parse query parameters
@@ -35,6 +35,20 @@ const myserver = http.createServer((req, res) => {
         const username = myurl.query.myname
         res.end(`hi, ${username}`);
         break;
+      
+      case "/search":
+        const search = myurl.query.search_query;
+        res.end("here are your results"+search);
+        break;
+
+      //http methods
+      case '/signup':
+        if(req.method=='GET') res.end('This is a signup page'); 
+        else if(req.method=='POST'){
+          //DB query
+          res.end('success');
+        }
+        break;
 
       // Agar koi unknown route ho to 404 message bhejenge
       default:
@@ -42,8 +56,10 @@ const myserver = http.createServer((req, res) => {
     }
 
   });
-});
+};
 
+
+const myserver = http.createServer(myHandler);
 // Server ko port 8000 par listen karwa rahe hain
 // Jab server start ho jayega to console me message show hoga
 myserver.listen(8000, () => {
