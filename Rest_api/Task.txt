@@ -1,0 +1,20 @@
+We are making a REST APi in which we support tha JSON data
+
+**making a hybrid server for all devices**
+GET /users --> HTML document render(lists all users)
+GET /api/users -->lists all users
+
+so agar aage /api hai toh it will throw a JSON data else it will show a HTML document
+
+GET /api/users/1 -->get the user with the id 1
+GET /api/users/2 -->get the user with the id 2
+GET /api/users/:id -->get the user with the id = id
+:id ->variale/Dynamic
+
+POST /api/users -->create new users
+
+PATCH /api/users/id -->edit the user with the given id
+
+DELETE /api/users/id -->delete the user with the given id
+
+**currently no database so we will be harcoding the data using mockarro.com website -->that generates fake data for the testing purposes.

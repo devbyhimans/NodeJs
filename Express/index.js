@@ -6,7 +6,7 @@ const express = require("express");
 //This app is basically same as that handler function in our http
 const app = express();
 
-//**->express internally uses http and save us from pain and mannual labour of building everything from scratch
+//->express internally uses http and save us from pain and mannual labour of building everything from scratch
 
 
 // --------------------------------------------
